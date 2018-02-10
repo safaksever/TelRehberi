@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.safak.telrehberi.EditActivity">
+
+    <ImageView
+        android:id="@+id/reverse"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="reverse"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/ic_keyboard_arrow_left_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editName1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:hint="@string/isim" />
+
+    <EditText
+        android:id="@+id/editTel1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:hint="@string/tel" />
+
+    <EditText
+        android:id="@+id/editMail1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sil"
+            android:text="Sil"
+            android:layout_marginRight="62dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="62dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="duzelt"
+            android:text="@string/duzenle"
+            android:layout_marginLeft="62dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TelRehberi</string>
+    <string name="isim">İsim</string>
+    <string name="tel">Telefon</string>
+    <string name="email">E-Mail</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="duzenle">düzenle</string>
+</resources>
